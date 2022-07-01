@@ -1,7 +1,7 @@
 import Human from './Human.js';
 
 // Employee praplecia Human class
-class Employee extends Human {
+export default class Employee extends Human {
   constructor(argAge, argName, argHourly) {
     super(argAge, argName);
     this.hourly = argHourly;
