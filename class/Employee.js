@@ -1,3 +1,3 @@
-// praplecia Human class
+// Employee praplecia Human class
 
 // sukurdami Employee valadinis (sk )
