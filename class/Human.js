@@ -1,7 +1,11 @@
 // sukurti klase Human
 export default class Human {
+  // skaiciuojam
+  static count = 0;
   // klase ima amziu ir varda kaip argumentus
   constructor(argAge, argName) {
+    Human.count = ++Human.count;
+    this.id = Human.count;
     this.age = argAge;
     this.name = argName;
   }
